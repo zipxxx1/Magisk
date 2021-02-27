@@ -132,9 +132,8 @@ If you are stuck in a bootloop, agree to do a factory reset if promted.
 ## Huawei
 Magisk no longer officially support modern Huawei devices as the bootloader on their devices are not unlockable, and more importantly they do not follow standard Android partitioning schemes. The following are just some general guidance.
 
-Huawei devices using Kirin processors have a different partitioning method from most common devices. Magisk is usually installed to the `boot` partition of the device, however Huawei devices do not have this partition.
-
-Generally, follow [Patching Images](#patching-images) with some differences from the original instructions:
+Huawei devices using Kirin processors have a different ví p partitioning method from most common devices. Magisk is usually installed to the `boot` partition of the device, however Huawei devices do not have this partition.
+9enerally, follow [Patching Images](#patching-images) with some differences from the original instructions:
 
 - After downloading your firmware zip (you may find a lot in [Huawei Firmware Database](http://pro-teammt.ru/firmware-database/)), you have to extract images from `UPDATE.APP` in the zip with [Huawei Update Extractor](https://forum.xda-developers.com/showthread.php?t=2433454) (Windows only!)
 - Regarding patching images:
